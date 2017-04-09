@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  TipCalcAthenaHacks
 //
-//  Created by Zoe Ramirez on 4/8/17.
+//  Created by Zolangi Ramirez on 4/8/17.
 //  Copyright © 2017 Zolangi Ramirez. All rights reserved.
 //
 
