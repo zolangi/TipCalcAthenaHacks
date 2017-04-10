@@ -22,8 +22,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tip Calculator" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LFg-0N-vnq">
-                                <rect key="frame" x="128.66666666666669" y="28" width="156.66666666666669" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tip Calculator" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LFg-0N-vnq">
+                                <rect key="frame" x="136" y="28" width="143" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="qcN-XZ-ald"/>
                                 </constraints>
@@ -32,7 +32,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="bor-Ru-old" userLabel="Super Stack View">
-                                <rect key="frame" x="88" y="124" width="274" height="208"/>
+                                <rect key="frame" x="70" y="133" width="274" height="208"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GvL-Nm-5dE" userLabel="Bill Amount Stack View">
                                         <rect key="frame" x="0.0" y="0.0" width="274" height="30"/>
@@ -50,7 +50,7 @@
                                                 </constraints>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                             </textField>
                                         </subviews>
                                     </stackView>
@@ -85,7 +85,7 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="foj-xr-M37" userLabel="Tip Amount Text Field">
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="foj-xr-M37" userLabel="Tip Amount Text Field">
                                                 <rect key="frame" x="189" y="0.0" width="85" height="30"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="85" id="xkG-E8-tNE"/>
@@ -105,7 +105,7 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ndQ-ov-p4J" userLabel="Total Text Field">
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ndQ-ov-p4J" userLabel="Total Text Field">
                                                 <rect key="frame" x="189" y="0.0" width="85" height="30"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="85" id="L3q-QS-VnH"/>
@@ -135,12 +135,13 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="bor-Ru-old" firstAttribute="top" secondItem="LFg-0N-vnq" secondAttribute="bottom" constant="75" id="0IV-un-89i"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="bor-Ru-old" secondAttribute="trailing" constant="32" id="9Fc-WN-7de"/>
+                            <constraint firstItem="bor-Ru-old" firstAttribute="top" secondItem="LFg-0N-vnq" secondAttribute="bottom" constant="84" id="0IV-un-89i"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="bor-Ru-old" secondAttribute="trailing" constant="50" id="9Fc-WN-7de"/>
                             <constraint firstItem="LFg-0N-vnq" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="D9I-15-2Ee"/>
-                            <constraint firstItem="bor-Ru-old" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="68" id="Idh-0W-GU3"/>
+                            <constraint firstItem="bor-Ru-old" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="50" id="Idh-0W-GU3"/>
                             <constraint firstItem="LFg-0N-vnq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cga-yo-GVT"/>
-                            <constraint firstItem="LFg-0N-vnq" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" constant="-257.5" id="zPU-ch-Ug5"/>
+                            <constraint firstItem="bor-Ru-old" firstAttribute="top" secondItem="LFg-0N-vnq" secondAttribute="bottom" constant="84" id="oya-D3-CZe"/>
+                            <constraint firstItem="LFg-0N-vnq" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" constant="-271" id="zPU-ch-Ug5"/>
                         </constraints>
                     </view>
                     <connections>
@@ -153,7 +154,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="119.2" y="139.880059970015"/>
+            <point key="canvasLocation" x="118.84057971014494" y="139.4021739130435"/>
         </scene>
     </scenes>
 </document>
