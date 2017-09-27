@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var tipAmountField: UITextField!
     @IBOutlet weak var totalAmountField: UITextField!
     
-    @IBAction func calculateTip(_ sender: AnyObject) {
+    @IBAction func calculateTip(_ sender: Any) {
         if let billAmount = Double(billAmountField.text!) {
             var tipPercentage = 0.0
             
@@ -37,9 +37,9 @@ class ViewController: UIViewController {
             
             if (!billAmountField.isEditing) {
                 billAmountField.text = String(format: "%.2f", roundedBillAmount)
-            }
+            } else{
             tipAmountField.text = String(format: "%.2f", roundedTipAmount)
-            totalAmountField.text = String(format: "%.2f", totalAmount)
+                totalAmountField.text = String(format: "%.2f", totalAmount)}
         } else {
             //show error
             billAmountField.text = ""

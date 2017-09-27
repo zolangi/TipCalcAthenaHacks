@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C89315BA1E9C5BD2004AC1C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C89315B91E9C5BD2004AC1C2 /* Assets.xcassets */; };
 		C8C9BE611E998DE00063CDB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C9BE601E998DE00063CDB1 /* AppDelegate.swift */; };
 		C8C9BE631E998DE00063CDB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C9BE621E998DE00063CDB1 /* ViewController.swift */; };
 		C8C9BE661E998DE00063CDB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8C9BE641E998DE00063CDB1 /* Main.storyboard */; };
-		C8C9BE681E998DE00063CDB1 /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C8C9BE671E998DE00063CDB1 /* logo@2x.png */; };
 		C8C9BE6B1E998DE00063CDB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8C9BE691E998DE00063CDB1 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C89315B91E9C5BD2004AC1C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C8C9BE5D1E998DE00063CDB1 /* TipCalcAthenaHacks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipCalcAthenaHacks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8C9BE601E998DE00063CDB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C8C9BE621E998DE00063CDB1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C8C9BE651E998DE00063CDB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C8C9BE671E998DE00063CDB1 /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo@2x.png"; path = "Assets.xcassets/logo/logo.imageset/logo@2x.png"; sourceTree = "<group>"; };
 		C8C9BE6A1E998DE00063CDB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C8C9BE6C1E998DE00063CDB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -57,7 +57,7 @@
 				C8C9BE601E998DE00063CDB1 /* AppDelegate.swift */,
 				C8C9BE621E998DE00063CDB1 /* ViewController.swift */,
 				C8C9BE641E998DE00063CDB1 /* Main.storyboard */,
-				C8C9BE671E998DE00063CDB1 /* logo@2x.png */,
+				C89315B91E9C5BD2004AC1C2 /* Assets.xcassets */,
 				C8C9BE691E998DE00063CDB1 /* LaunchScreen.storyboard */,
 				C8C9BE6C1E998DE00063CDB1 /* Info.plist */,
 			);
@@ -125,7 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8C9BE6B1E998DE00063CDB1 /* LaunchScreen.storyboard in Resources */,
-				C8C9BE681E998DE00063CDB1 /* logo@2x.png in Resources */,
+				C89315BA1E9C5BD2004AC1C2 /* Assets.xcassets in Resources */,
 				C8C9BE661E998DE00063CDB1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
